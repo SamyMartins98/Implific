@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Implific</title>
+    <link rel="shortcut icon" href="img/icone.png" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" />
+</head>
+
+<body>
+    <!-- MENU -->
+    <nav>
+        <div class="nav-wrapper grey darken-4">
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="index.html"> Entrar | Registrar</a></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="http://receita.economia.gov.br/acesso-rapido/tributos">Receita Federal</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+        </div>
+    </nav>
+    <ul class="sidenav grey darken-4" id="mobile-demo">
+        <img class="foto-perfil" src="https://picsum.photos/id/237/200/300" alt="Foto de perfil">
+        <li><a href="index.html"> Entrar | Registrar</a></li>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="http://receita.economia.gov.br/acesso-rapido/tributos">Receita Federal</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+    </ul>
+
+    <!-- CONTEUDO -->
+    <div class="row" id="header">
+        <div class="col s7">
+            <img class="responsive-img" src="img/logo.jpg" alt="Logo Implific">
+        </div>
+        <div class="col s5 ">
+            <a href="impostos.html"><button class="right">
+                    ICMS
+                </button>
+            </a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <form id="form-carro" action="consulta-retorno.html" class="col s10 m6 offset-m3 offset-s1">
+                <fieldset>
+                    <i id="info" class="material-icons">info_outline</i>
+                    <legend>ICMS por Estado:</legend>
+                    <label>Escolha o estado</label>
+                    <div class="input-field col s12">
+                        <select class="browser-default">
+                            <option value="" disabled selected>Estado</option>
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="AP">Amapá</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="DF">Distrito Federal</option>
+                            <option value="ES">Espírito Santo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PA">Pará</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PR">Paraná</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="TO">Tocantins</option>
+                        </select>
+                    </div>
+                    <div id="vl-carro" class="input-field col s12">
+                        <label for="nome">Valor do carro</label>
+                        <input id="valor" type="text" class="validate">
+                        <i class="material-icons">keyboard_voice</i>
+
+                        <span><label for="valorTotal">Valor total do carro no ato da compra</label></span>
+                    </div>
+                    <div class="input-field col s12 center">
+                        <a href="contsulta-retorno.html"><button class="btn waves-effect waves-light grey darken-4"
+                                type="submit" name="action">Calcular</button></a>
+                    </div>
+
+                </fieldset>
+
+            </form>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div id="search" class="input-field col s10 m6 offset-s1 offset-m3">
+                <label for="nome">Buscar imposto</label>
+                <input id="valor" type="text" class="validate">
+                <i class="material-icons">search</i>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="page-footer grey darken-4">
+        <div class="footer-copyright">
+            <div class="container center">
+                © 2019 Implific. Todos os direitos reservados.
+            </div>
+        </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src='js/jquery-3.4.1.min.js'></script>
+    <script src='js/main.js'></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+
+</html>

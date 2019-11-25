@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Implific</title>
+    <link rel="shortcut icon" href="img/icone.png" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" />
+</head>
+
+<body>
+    <!-- MENU -->
+    <nav>
+        <div class="nav-wrapper grey darken-4">
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="index.html"> Entrar | Registrar</a></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="http://receita.economia.gov.br/acesso-rapido/tributos">Receita Federal</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+        </div>
+    </nav>
+    <ul class="sidenav grey darken-4" id="mobile-demo">
+        <img class="foto-perfil" src="https://picsum.photos/id/237/200/300" alt="Foto de perfil">
+        <li><a href="index.html"> Entrar | Registrar</a></li>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="http://receita.economia.gov.br/acesso-rapido/tributos">Receita Federal</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+    </ul>
+
+    <!-- CONTEUDO -->
+    <div class="row" id="header">
+        <div class="col s7">
+            <img class="responsive-img" src="img/logo.jpg" alt="Logo Implific">
+        </div>
+        <div class="col s5 ">
+            <a href="consulta-insere.html"><button class="right">
+                    ICMS
+                </button></a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <form id="form-carro" class="col s10 m6 offset-m3 offset-s1">
+                <fieldset>
+                    <i id="info" class="material-icons">info_outline</i>
+                    <legend>ICMS por Estado:</legend>
+
+                    <div id="vl-carro" class="input-field col s12">
+                        <label for="nome">Valor do carro</label>
+                    </div>
+                    <div id="vl-carro" class="input-field col s12">
+                        <input type="text" value="R$: 13,00" disabled />
+                    </div>
+                    <div id="vl-carro" class="input-field col s12">
+                        <label for="nome">Valor do ICMS</label>
+                    </div>
+                    <div id="vl-carro" class="input-field col s12">
+                        <input type="text" value="R$: 13,00" disabled />
+                    </div>
+
+                </fieldset>
+
+            </form>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div id="search" class="input-field col s10 m6 offset-m3 offset-s1">
+                <label for="nome">Buscar imposto</label>
+                <input id="valor" type="text" class="validate">
+                <i class="material-icons">search</i>
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <footer class="page-footer grey darken-4">
+        <div class="footer-copyright">
+            <div class="container center">
+                © 2019 Implific. Todos os direitos reservados.
+            </div>
+        </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src='js/jquery-3.4.1.min.js'></script>
+    <script src='js/main.js'></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+
+</html>

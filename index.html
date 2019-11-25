@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Implific</title>
+    <link rel="shortcut icon" href="img/icone.png" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" />
+</head>
+
+<body>
+    <!-- MENU -->
+    <nav>
+        <div class="nav-wrapper grey darken-4">
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="index.html"> Entrar | Registrar</a></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="http://receita.economia.gov.br/acesso-rapido/tributos">Receita Federal</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+        </div>
+    </nav>
+    <ul class="sidenav grey darken-4" id="mobile-demo">
+        <img class="foto-perfil" src="https://picsum.photos/id/237/200/300" alt="Foto de perfil">
+        <li><a href="index.html"> Entrar | Registrar</a></li>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="http://receita.economia.gov.br/acesso-rapido/tributos">Receita Federal</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+    </ul>
+
+    <!-- CONTEUDO -->
+    <div class="container">
+        <div class="row">
+            <div class="card-panel col s12 m6 offset-m3">
+                <form id="login" action="home.html" method="get">
+                    <div class="col s12">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input id="login" type="text" class="validate">
+                            <label class="active" for="login">Login</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">fiber_pin</i>
+                            <input id="senha" type="text" class="validate">
+                            <label class="active" for="senha">Senha</label>
+                        </div>
+                        <div class="input-field col s6 ">
+                            <p>
+                                <label>
+                                    <input type="checkbox" />
+                                    <span>Lembrar senha</span>
+                                </label>
+                            </p>
+                        </div>
+                        <div class="input-field col s6 ">
+                            <p>
+                                <label>
+                                    <span>Esqueceu a senha?</span>
+                                </label>
+                            </p>
+                        </div>
+                        <div class="input-field col s12">
+                            <a href="home.html"><button class="btn waves-effect waves-light grey darken-4" type="submit"
+                                    name="action">Entrar
+                                    <i class="material-icons right">send</i>
+                                </button></a>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12 center">
+                                <p>
+                                    <label>
+                                        <span>Não tem conta? <a href="registrar.html"> Cadastrar-se</a></span>
+                                    </label>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="page-footer grey darken-4">
+        <div class="footer-copyright">
+            <div class="container center">
+                © 2019 Implific. Todos os direitos reservados.
+            </div>
+        </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src='js/jquery-3.4.1.min.js'></script>
+    <script src='js/main.js'></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+
+</html>

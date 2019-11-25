@@ -1,0 +1,173 @@
+
+
+.foto-perfil{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+
+#registrar {
+    margin-top: 20px;
+}
+
+#registrar a {
+    width: 100%;
+}
+
+#header img {
+    margin-top: 5px;
+    width: 100px;
+}
+
+#header button {
+    width: 130px;
+    margin-top: 5px;
+    height: 40px;
+    background-color: #212121;
+    color: white;
+    border: none;
+    border-bottom: 3px solid #4fc3f7;
+}
+
+#mobile-demo a {
+    color: white;
+}
+
+.logo {
+    margin-top: 30px;
+}
+
+.btn-impostos {
+    width: 130px;
+    margin-top: 5px;
+    height: 40px;
+    background-color: #212121;
+    color: white;
+    border: none;
+    border-bottom: 3px solid #4fc3f7;
+}
+
+.btn-tipos {
+    width: 130px;
+    margin-top: 5px;
+    height: 50px;
+    background-color: #212121;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+}
+
+#containerSobre {
+    margin: 0 !important;
+    width: 100% !important;
+}
+
+.imgSobre {
+    background: url('../img/imageIHC.jpg') center no-repeat;
+}
+
+.imgSobre2 {
+    background: url('../img/imageIHC2.jpg') center no-repeat;
+}
+
+.imgSobre3 {
+    background: url('../img/fatecpg.png') center no-repeat;
+}
+
+.card-panel {
+    height: 410px;
+    margin-top: 30px !important;
+}
+
+#search {
+    margin-top: 50px;
+}
+
+#search i {
+    position: absolute;
+    right: 10px;
+    margin-top: 10px;
+}
+
+.page-footer {
+    position: fixed;
+    z-index: 10;
+    bottom: 0px;
+    width: 100%;
+}
+
+#vl-carro {
+    position: relative;
+}
+
+#vl-carro i {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+
+#form-carro {
+    position: relative;
+}
+
+#form-carro #info {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
